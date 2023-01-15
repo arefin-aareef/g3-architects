@@ -173,6 +173,7 @@ body {
     display: flex;
     gap: 146px;
     margin-bottom: 30px;
+    gap: 140px;
 }
 
 .facility-title {
@@ -354,6 +355,8 @@ body {
     padding: 40px 0;
 }
 
+/* Small Screen */
+
 @media screen and (max-width:576px) {
 
     .nav {
@@ -364,12 +367,10 @@ body {
         width: 100%;
         justify-content: space-around;
         gap: 0;
-
     }
 
     .nav-title {
         margin: -30px 0 10px 0;
-
     }
 
     .header-detail {
@@ -412,6 +413,12 @@ body {
         bottom: -30px;
         right: 0;
         padding: 15px;
+        transform: scale(0.9, 0.9);
+    }
+
+    .experience:hover {
+        transform: scale(1, 1);
+        transition: transform 0.5s linear;
     }
 
     .section-3 {
@@ -452,4 +459,90 @@ body {
         flex-wrap: wrap;
         justify-content: center;
     }
+}
+
+/* Medium Screen */
+
+@media screen and (min-width:577px) and (max-width:768px) {
+    
+    .nav {
+        flex-direction: column;
+    }
+    
+    .nav-menu {
+        width: 100%;
+        justify-content: space-around;
+    }
+
+    .nav-title {
+        margin: -30px 0 10px 0;
+    }
+
+    .header-detail {
+        width: 100%;
+        padding: 20px;
+    }
+
+    .section-1 {
+        flex-direction: column-reverse;
+        gap: 0;
+    }
+
+    .feature-img img {
+        width: 100%;
+    }
+
+    .section-2 {
+        flex-direction: column;
+        width: 100%;
+        gap: 70px;    
+    }
+
+    .facility-img img {
+        width: 100%;
+    }
+
+    .experience {
+        width: 100%;
+        height: 100%;
+        bottom: -30px;
+        right: 0;
+        padding: 25px 15px;
+        transform: scale(0.9, 0.9);
+    }
+
+    .experience:hover {
+        transform: scale(1, 1);
+        transition: transform 0.5s linear;
+    }
+
+    .section-3 {
+        margin-top: 100px;
+    }
+
+    .fact-description {
+        width: 100%;
+    }
+
+    .fact-list {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-column-gap: 15px;
+        grid-row-gap: 15px;
+        justify-items: center;
+    }
+
+    .fact-item {
+        width: 100%;
+    }
+    
+    .section-4 {
+        width: 100%;
+    }
+
+    .sponsor-list {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
 }
