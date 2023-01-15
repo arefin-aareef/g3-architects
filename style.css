@@ -414,7 +414,27 @@ body {
         padding: 15px;
     }
 
-    .section-3, .section-4 {
+    .section-3 {
+        margin-top: 100px;
+    }
+
+    .fact-description {
+        width: 100%;
+        margin-bottom: 50px;
+
+    }
+
+    .fact-list {
+        flex-direction: column;
+        gap: 50px;
+        align-items: center;
+    }
+    
+    .fact-item {
+        transform: scale(1.1, 1.1);
+    }
+    
+    .section-4 {
         display: none;
     }
 }
