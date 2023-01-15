@@ -392,13 +392,29 @@ body {
         padding: 10px;
     }
 
+    .section-2 {
+        flex-direction: column;
+        width: 100%;
+        gap: 70px;
+    }
 
+    .facility-title {
+        width: 100%;
+    }
 
+    .facility-img img {
+        width: 100%;
+    }
 
+    .experience {
+        width: 100%;
+        height: 100%;
+        bottom: -30px;
+        right: 0;
+        padding: 15px;
+    }
 
-
-
-    .section-2, .section-3, .section-4 {
+    .section-3, .section-4 {
         display: none;
     }
 }
