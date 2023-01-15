@@ -435,6 +435,21 @@ body {
     }
     
     .section-4 {
-        display: none;
+        width: 100%;
+    }
+
+    .fact-title,
+    .fact-description,
+    .sponsor-title {
+        text-align: center;
+    }
+
+    .sponsor-description {
+        width: 100%;
+    }
+
+    .sponsor-list {
+        flex-wrap: wrap;
+        justify-content: center;
     }
 }
